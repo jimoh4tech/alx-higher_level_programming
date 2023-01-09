@@ -1,0 +1,11 @@
+Testing for module docstring:
+	>>> l = __import__("0-lookup").__doc__
+	>>> len(l) > 1
+	True
+
+Testing for method docstring:
+	>>> m = __import__("0-lookup").lookup.__doc__
+	>>> len(m) > 1
+	True
+
+	
